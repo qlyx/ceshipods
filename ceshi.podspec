@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary      = "A delightful setting interface framework"
   s.ios.deployment_target = '8.0'
   s.description  = <<-DESC 
-                      你好你好
+                      A delightful setting interface framework A delightful setting interface framework
                    DESC
 
   s.homepage     = "https://github.com/qlyx/ceshipods"
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "澜海利奥" => "1099781379@qq.com" }
 
-  s.source       = { :git => "https://github.com/qlyx/ceshipods.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/qlyx/ceshipods.git", :tag => "v0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
