@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7BD2932120A5709E0025D7B8 /* MainViewNavigitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD2932020A5709E0025D7B8 /* MainViewNavigitionView.m */; };
 		7BE7FB7620A5678F00726FF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE7FB7520A5678F00726FF1 /* AppDelegate.m */; };
 		7BE7FB7920A5678F00726FF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE7FB7820A5678F00726FF1 /* ViewController.m */; };
 		7BE7FB7C20A5678F00726FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BE7FB7A20A5678F00726FF1 /* Main.storyboard */; };
@@ -36,8 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7BD2931F20A5709E0025D7B8 /* MainViewNavigitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewNavigitionView.h; sourceTree = "<group>"; };
-		7BD2932020A5709E0025D7B8 /* MainViewNavigitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewNavigitionView.m; sourceTree = "<group>"; };
 		7BE7FB7120A5678F00726FF1 /* 111.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 111.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE7FB7420A5678F00726FF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7BE7FB7520A5678F00726FF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,16 +78,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7BD2931E20A5709E0025D7B8 /* ceshi */ = {
-			isa = PBXGroup;
-			children = (
-				7BD2931F20A5709E0025D7B8 /* MainViewNavigitionView.h */,
-				7BD2932020A5709E0025D7B8 /* MainViewNavigitionView.m */,
-			);
-			name = ceshi;
-			path = ../../ceshi;
-			sourceTree = "<group>";
-		};
 		7BE7FB6820A5678F00726FF1 = {
 			isa = PBXGroup;
 			children = (
@@ -118,7 +105,6 @@
 				7BE7FB7520A5678F00726FF1 /* AppDelegate.m */,
 				7BE7FB7720A5678F00726FF1 /* ViewController.h */,
 				7BE7FB7820A5678F00726FF1 /* ViewController.m */,
-				7BD2931E20A5709E0025D7B8 /* ceshi */,
 				7BE7FB7A20A5678F00726FF1 /* Main.storyboard */,
 				7BE7FB7D20A5678F00726FF1 /* Assets.xcassets */,
 				7BE7FB7F20A5678F00726FF1 /* LaunchScreen.storyboard */,
@@ -281,7 +267,6 @@
 			files = (
 				7BE7FB7920A5678F00726FF1 /* ViewController.m in Sources */,
 				7BE7FB8420A5678F00726FF1 /* main.m in Sources */,
-				7BD2932120A5709E0025D7B8 /* MainViewNavigitionView.m in Sources */,
 				7BE7FB7620A5678F00726FF1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
