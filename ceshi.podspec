@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ceshi/*.{h,m}"
-  s.exclude_files = "ceshi"
+  s.source_files  = "ceshi", "ceshi/**/*.{h,m}"
+  #s.exclude_files = "ceshi"
 
   # s.public_header_files = "ceshi/*.h"
 

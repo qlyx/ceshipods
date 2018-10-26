@@ -15,6 +15,7 @@
 		7BE7FB8420A5678F00726FF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE7FB8320A5678F00726FF1 /* main.m */; };
 		7BE7FB8E20A5678F00726FF1 /* _11Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE7FB8D20A5678F00726FF1 /* _11Tests.m */; };
 		7BE7FB9920A5678F00726FF1 /* _11UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE7FB9820A5678F00726FF1 /* _11UITests.m */; };
+		CCEC35332182CA7D0086ACB7 /* MainViewNavigitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEC35312182CA7C0086ACB7 /* MainViewNavigitionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7BE7FB9420A5678F00726FF1 /* 111UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 111UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE7FB9820A5678F00726FF1 /* _11UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _11UITests.m; sourceTree = "<group>"; };
 		7BE7FB9A20A5678F00726FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCEC35312182CA7C0086ACB7 /* MainViewNavigitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewNavigitionView.m; sourceTree = "<group>"; };
+		CCEC35322182CA7C0086ACB7 /* MainViewNavigitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewNavigitionView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				7BE7FB7520A5678F00726FF1 /* AppDelegate.m */,
 				7BE7FB7720A5678F00726FF1 /* ViewController.h */,
 				7BE7FB7820A5678F00726FF1 /* ViewController.m */,
+				CCEC35302182CA7C0086ACB7 /* ceshi */,
 				7BE7FB7A20A5678F00726FF1 /* Main.storyboard */,
 				7BE7FB7D20A5678F00726FF1 /* Assets.xcassets */,
 				7BE7FB7F20A5678F00726FF1 /* LaunchScreen.storyboard */,
@@ -130,6 +134,15 @@
 				7BE7FB9A20A5678F00726FF1 /* Info.plist */,
 			);
 			path = 111UITests;
+			sourceTree = "<group>";
+		};
+		CCEC35302182CA7C0086ACB7 /* ceshi */ = {
+			isa = PBXGroup;
+			children = (
+				CCEC35312182CA7C0086ACB7 /* MainViewNavigitionView.m */,
+				CCEC35322182CA7C0086ACB7 /* MainViewNavigitionView.h */,
+			);
+			path = ceshi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			files = (
 				7BE7FB7920A5678F00726FF1 /* ViewController.m in Sources */,
 				7BE7FB8420A5678F00726FF1 /* main.m in Sources */,
+				CCEC35332182CA7D0086ACB7 /* MainViewNavigitionView.m in Sources */,
 				7BE7FB7620A5678F00726FF1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
